@@ -2,7 +2,7 @@ name: Telegram Minute of Silence Bot
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # 8:0 0 Київ (6:00 UTC)
+    - cron: "0 5 * * *"  # 8:0 0 Київ (6:00 UTC) "було  0 5 до зміни часу "
   workflow_dispatch:
 
 jobs:
