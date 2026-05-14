@@ -1,10 +1,11 @@
 from flask import Flask
 import requests
+import os
 
 app = Flask(__name__)
 
-TOKEN = "8259339256:AAFLtjDITQTo1-W2yigShG7QSMW1vzICMgI"
-CHAT_USERNAME = "@zvenmiskrada"
+TOKEN = "8581090817:AAFC1bzXTfJvqHHxFmPzfXECciSjrErbyjM"
+CHAT_USERNAME = "@asdqwesszx"
 MESSAGE = "Зупинімося на мить, щоб вшанувати пам’ять Героїв, які поклали своє життя заради нашого майбутнього. Їхній подвиг назавжди залишиться в нашій пам’яті.\n\nВічна Слава і вдячність."
 PHOTO_PATH = "photo.png"
 
@@ -29,4 +30,4 @@ def home():
     return "Bot is running"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
