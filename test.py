@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 
-TOKEN = "8581090817:AAFC1bzXTfJvqHHxFmPzfXECciSjrErbyjM"
-CHAT_USERNAME = "@asdqwesszx"
+TOKEN = "7660996964:AAGxIyM7QOF3Dmek7VAYxdOx9t1sGUlvCQ4"
+CHAT_USERNAME = "@zvenmiskrada"
 MESSAGE = "Зупинімося на мить, щоб вшанувати пам’ять Героїв, які поклали своє життя заради нашого майбутнього. Їхній подвиг назавжди залишиться в нашій пам’яті.\n\nВічна Слава і вдячність."
 PHOTO_PATH = "photo.png"
 
